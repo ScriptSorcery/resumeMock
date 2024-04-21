@@ -1,5 +1,25 @@
+nav{
+    background: transparent;
+}
 
 .navbar {
     font-family: 'Roboto', sans-serif;
 }
-  
+
+.nav-link{
+    color: white !important;
+}
+
+.active {
+    color: red !important;
+}
+
+.email_id_container{
+    border-radius: 20px;
+    border: 2px solid red;
+    padding: 5px;
+}
+
+.email_id {
+    margin: 0px 5px;
+}
