@@ -7,7 +7,7 @@ interface Props {
 
 }
 
-const home = (props: Props) => {
+const Home = (props: Props) => {
   return (
       <div className="home_container">
         <h1>Welcome to the Home Page</h1>
@@ -16,4 +16,4 @@ const home = (props: Props) => {
   )
 }
 
-export default home
+export default Home

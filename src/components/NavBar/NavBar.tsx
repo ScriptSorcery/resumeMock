@@ -13,22 +13,26 @@ const NavBar = (props: Props) => {
   const { pathname } = useLocation();
 
   return (
-    <Navbar expand="md">
-      <Nav className="ml-auto" navbar>
-        <NavItem>
+    <div className="d-flex mb-3 navbar">
+      <div className="p-2">
+        <span>
           <NavLink tag={Link} to="/" className={pathname === routeLink.home ? "active" : ""} exact>Home</NavLink>
-        </NavItem>
-        <NavItem>
+        </span>
+      </div>
+      <div className="p-2">
+        <span>
           <NavLink tag={Link} to="/about" className={pathname === routeLink.about ? "active" : ""}>About</NavLink>
-        </NavItem>
-        <NavItem>
+        </span>
+      </div>
+      <div className="p-2">
+        <span>
           <NavLink tag={Link} to="/process" className={pathname === routeLink.process ? "active" : ""}>Process</NavLink>
-        </NavItem>
-      </Nav>
-      <div className="email_id_container">
+        </span>
+      </div>
+      <div className="email_id_container ms-auto p-2">
         <span className="email_id">ali.mubashir40@gmail.com</span>
       </div>
-    </Navbar>
+    </div>
   );
 };
 

@@ -4,6 +4,11 @@ nav{
 
 .navbar {
     font-family: 'Roboto', sans-serif;
+    position: fixed;
+
+    span{
+        margin: 0px 10px;
+    }
 }
 
 .nav-link{
