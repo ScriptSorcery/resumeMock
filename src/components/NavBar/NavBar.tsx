@@ -1,5 +1,5 @@
-import React, { Fragment } from 'react';
-import { Navbar, Nav, NavItem, NavLink } from 'reactstrap';
+import { Fragment } from 'react';
+import { NavLink } from 'reactstrap';
 import { Link, useLocation } from 'react-router-dom';
 import { routeLink } from '../../shared/shared';
 import { FaCheck } from 'react-icons/fa';
