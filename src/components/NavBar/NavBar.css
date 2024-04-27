@@ -23,9 +23,16 @@ nav{
     border-radius: 25px; /* Half of the height for a perfect circle */
     border: 2px solid #757575; /* Slightly greyish black */
     cursor: pointer;
+    color: white;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+.email_id_container:hover {
+    background-color: #f0f0f0; /* Light grey on hover */
+    border-color: #555; /* Darker border color on hover */
+    color: #171923;
 }
 
 .email_id {
     margin: 0px 5px;
-    color: white;
 }

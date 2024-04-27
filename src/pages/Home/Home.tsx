@@ -1,10 +1,8 @@
-import React, { Fragment } from 'react'
-import PropTypes from 'prop-types'
-
-import "./Home.css"
 import { Button, Col, Row } from 'reactstrap'
 import PillContainer from '../../components/PillContainer/PillContainer'
-import { FaArrowRight, FaLongArrowAltRight } from 'react-icons/fa'
+import { FaInstagram, FaLinkedinIn, FaTwitter } from 'react-icons/fa'
+
+import "./Home.css"
 
 interface Props {
 
@@ -16,7 +14,7 @@ const Home = (props: Props) => {
       <Row className='my-5'>
         <PillContainer text="Full-Stack Developer" color="#a0c4ff"/>
       </Row>
-      <Row className='my-5'>
+      <Row className='my-4'>
         <Col md={3}>
 
         </Col>
@@ -27,10 +25,22 @@ const Home = (props: Props) => {
             expertise for optimal engineering results. Able to effectively self-manage during independent projects, 
             as well as collaborate as a part of an effective Team
           </p>
-          <div>
+          <div className='my-4'>
             <Button className='connect-button'>
               Let's Connect <span className='arrow ml-2'></span>
             </Button>
+          </div>
+          <div className='social-buttons my-3'>
+            <span className='social-line'></span>
+            <span className='links'>
+              <FaTwitter />
+            </span>
+            <span className='links'>
+              <FaLinkedinIn />
+            </span>
+            <span className='links'>
+              <FaInstagram />
+            </span>
           </div>
         </Col>
         <Col md={3} className='d-flex align-items-center justify-content-center'>

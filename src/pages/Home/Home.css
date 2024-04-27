@@ -54,3 +54,29 @@
     right: 0;
     bottom: -4px;
 }
+
+.social-buttons{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    padding: 10px 0px;
+}
+
+.social-line{
+    margin-left: 8px;
+    margin-right: 20px;
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: scale(var(--ggs, 1));
+    border-top: 2px solid transparent;
+    border-bottom: 2px solid transparent;
+    box-shadow: inset 0 0 0 2px;
+    width: 100px;
+    height: 5px;
+}
+
+.links{
+    cursor: pointer;
+    margin: 0px 20px;
+}
