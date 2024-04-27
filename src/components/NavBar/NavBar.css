@@ -3,7 +3,6 @@ nav{
 }
 
 .navbar {
-    font-family: 'Roboto', sans-serif;
     position: fixed;
 
     span{
@@ -12,19 +11,21 @@ nav{
 }
 
 .nav-link{
-    color: white !important;
+    color: #c1c3c7 !important;
 }
 
 .active {
-    color: red !important;
+    color: #a0c4ff !important;
 }
 
 .email_id_container{
-    border-radius: 20px;
-    border: 2px solid red;
     padding: 5px;
+    border-radius: 25px; /* Half of the height for a perfect circle */
+    border: 2px solid #757575; /* Slightly greyish black */
+    cursor: pointer;
 }
 
 .email_id {
     margin: 0px 5px;
+    color: white;
 }

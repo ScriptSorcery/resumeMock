@@ -1,0 +1,38 @@
+.custom-cursor {
+    width: 0;
+    height: 0;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-bottom: 18px solid;
+    transform: rotate(-45deg);
+    cursor: default;
+    border-radius: 3px;
+  }
+  
+  .custom-cursor::after {
+    content: "";
+    position: absolute;
+    bottom: -18.5px;
+    left: -8px;
+    width: 0;
+    height: 0;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-bottom: 3px solid #171923;
+  }
+
+  .pill-container{
+    width: fit-content;
+  }
+
+  .pill-text{
+    border-radius: 25px;
+    cursor: default;
+    color: #171923;
+    display: flex;
+    justify-content: center;
+    margin-left: 12px;
+    font-size: 17px;
+    font-weight: 400;
+    padding: 5px 18px;
+  }

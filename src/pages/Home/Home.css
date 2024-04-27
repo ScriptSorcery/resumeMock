@@ -1,5 +1,22 @@
 .home_container{
-    height: 100vh;
-    background: black;
-    padding-top: 20vh;
+    display: flex;
+    background: #171923;
+    font-size: 22px;
+    color: #d3d6da;
+    font-weight: 100;
+    flex-direction: column;
+}
+
+.text-bold{
+    color: #e5e6e8;
+    font-weight: 400;
+}
+
+.paragraph{
+    font-size: 18px;
+}
+
+.second-pill-container{
+    position: relative;
+    left: 10%;
 }
