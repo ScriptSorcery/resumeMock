@@ -20,3 +20,37 @@
     position: relative;
     left: 10%;
 }
+
+.connect-button{
+    display: flex;
+    align-items: center;
+    background-color: aliceblue;
+    border-radius: 25px;
+    color: #171923;
+}
+
+.arrow {
+    margin-left: 8px;
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: scale(var(--ggs, 1));
+    border-top: 2px solid transparent;
+    border-bottom: 2px solid transparent;
+    box-shadow: inset 0 0 0 2px;
+    width: 50px;
+    height: 6px;
+}
+.arrow::after {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-top: 2px solid;
+    border-right: 2px solid;
+    transform: rotate(45deg);
+    right: 0;
+    bottom: -4px;
+}

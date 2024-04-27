@@ -2,8 +2,9 @@ import React, { Fragment } from 'react'
 import PropTypes from 'prop-types'
 
 import "./Home.css"
-import { Col, Row } from 'reactstrap'
+import { Button, Col, Row } from 'reactstrap'
 import PillContainer from '../../components/PillContainer/PillContainer'
+import { FaArrowRight, FaLongArrowAltRight } from 'react-icons/fa'
 
 interface Props {
 
@@ -26,6 +27,11 @@ const Home = (props: Props) => {
             expertise for optimal engineering results. Able to effectively self-manage during independent projects, 
             as well as collaborate as a part of an effective Team
           </p>
+          <div>
+            <Button className='connect-button'>
+              Let's Connect <span className='arrow ml-2'></span>
+            </Button>
+          </div>
         </Col>
         <Col md={3} className='d-flex align-items-center justify-content-center'>
           <PillContainer className="pl-5" text="UI Developer" color="#cbffbf"/>
